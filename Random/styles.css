@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+.alumnos {
+    margin: 20px 0;
+}
+
+.alumnos button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#actividades {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.actividad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.actividad label {
+    font-size: 18px;
+}
+
+.actividad input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+}
